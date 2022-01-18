@@ -7,14 +7,8 @@ const userDataStructure={
     dob: String,
     email: String,
     password: String,
-    flightBookings: {
-        flightsDetails: Array,
-        passengersDetails: Array
-    },
-    hotelBookings: {
-        hotelsDetails: Array,
-        customersDetails: Array
-    }
+    flightBookings: Array,
+    hotelBookings: Array
 }
 const userSchema=new Schema(userDataStructure)
 
