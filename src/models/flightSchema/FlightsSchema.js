@@ -9,7 +9,7 @@ const flightDataStructure={
     destinationAirport: {name: String, sName: String,city: String, terminal: String},
     arrivalTime: String,
     departureTime: String,
-    flightDuration: String,
+    flightDuration: Number,
     class: String,
     baseFare: Number,
     baggageCheckIn: String,
